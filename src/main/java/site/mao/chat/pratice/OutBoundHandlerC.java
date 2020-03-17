@@ -1,0 +1,15 @@
+package site.mao.chat.pratice;
+
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelOutboundHandlerAdapter;
+import io.netty.channel.ChannelPromise;
+
+public class OutBoundHandlerC extends ChannelOutboundHandlerAdapter {
+    @Override
+    public void write(ChannelHandlerContext ctx, Object msg, ChannelPromise promise) throws Exception {
+
+        System.out.println("OutBoundHandlerB: " + msg);
+        //调用父类的write来进行传递
+        super.write(ctx, msg, promise);
+    }
+}

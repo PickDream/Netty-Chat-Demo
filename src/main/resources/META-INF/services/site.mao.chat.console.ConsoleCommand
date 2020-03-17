@@ -1,0 +1,5 @@
+site.mao.chat.console.CreateGroupConsoleCommand
+site.mao.chat.console.LogoutConsoleCommand
+site.mao.chat.console.SendToUserConsoleCommand
+site.mao.chat.console.SendToGroupCommand
+site.mao.chat.console.ListGroupCommand
